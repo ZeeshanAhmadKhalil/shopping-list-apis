@@ -16,6 +16,35 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@seed/*": [
+        "prisma/seed/*"
+      ],
+      "@config/*": [
+        "src/config/*",
+      ],
+      "@authentication/*": [
+        "src/config/authentication/*"
+      ],
+      "@constants/*": [
+        "src/config/constants/*"
+      ],
+      "@decorators/*": [
+        "src/config/decorators/*",
+      ],
+      "@env/*": [
+        "src/config/env/*",
+      ],
+      "@helpers/*": [
+        "src/config/helpers/*",
+      ],
+      "@middlewares/*": [
+        "src/config/middlewares/*",
+      ],
+      "@modules/*": [
+        "src/modules/*"
+      ],
+    }
   }
 }
